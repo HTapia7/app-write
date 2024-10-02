@@ -1,4 +1,3 @@
-import { console } from "inspector";
 import mongoose from "mongoose";
 
 export async function connect(){
