@@ -13,6 +13,8 @@ export default function signUpPage(){
       username: "",
     })
 
+    const notify = () => toast('Successfully created account');
+
     const [buttonDisabled, setButtonDisable] = React.useState(false)
     const [loading, setLoading] = React.useState(false)
 
@@ -39,7 +41,6 @@ export default function signUpPage(){
         setButtonDisable(true)
       }
     }, [user])
-
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 text-blue-800">
