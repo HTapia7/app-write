@@ -1,9 +1,7 @@
 import {connect} from "@/dbConfig/dbConfig";
 import { NextRequest, NextResponse } from "next/server";
 import User from "@/models/userModel";
-import { use } from "react";
-import { error } from "console";
-import { stat } from "fs";
+
 
 connect();
 
