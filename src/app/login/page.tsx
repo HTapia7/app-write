@@ -42,7 +42,8 @@ export default function LoginPage(){
 
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 text-green-600" >
+    // change back to normal color
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 text-green-600 bg-white" >
       <label htmlFor="email">email</label>
       <input className="p-2"
         id="email"
